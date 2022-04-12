@@ -1,0 +1,9 @@
+.NoteList {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	box-sizing: border-box;
+	width: 60%;
+	height: 60%;
+	margin: auto;
+	border: 2px solid blueviolet;
+}
