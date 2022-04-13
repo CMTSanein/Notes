@@ -1,9 +1,9 @@
 import React from "react";
 
-const TextArea = () => {
+const TextArea = (props) => {
 	return (
 		<div className="Text">
-			<textarea></textarea>
+			<textarea onChange={props.typingChange}></textarea>
 		</div>
 	);
 };
